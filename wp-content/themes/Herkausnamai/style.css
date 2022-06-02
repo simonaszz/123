@@ -65,8 +65,7 @@ nav.navbar.navbar-expand-md.bg-dark.navbar-dark.header-area.sticky-top
   background-repeat: no-repeat;
   padding-bottom: px; /* this can also control the position */
 
-
-
-
-
+}
+.card-body {
+  min-height: 290px;
 }

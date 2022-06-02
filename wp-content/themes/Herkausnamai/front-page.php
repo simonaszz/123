@@ -91,7 +91,7 @@ if (have_posts()) {
     <h2 class="h2 text-center py-1">Mūsų Siūlomos Paslaugos</h2>
     <div class="container" id="paslaugos">
         <div class="row p-4">
-            <div class="col-sm-12 col-md-4">
+            <div class="col-lg-4 col-sm-12 col-md-6 py-3">
                 <div class="card card border-success sm-2 " style="">
                     <div class="card-body">
                         <ul class="list-group list-group-flush h-100">
@@ -103,7 +103,7 @@ if (have_posts()) {
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4">
+            <div class="col-lg-4 col-sm-12 col-md-6  py-3">
                 <div class="card card border-success sm-2">
                     <div class="card-body">
                         <ul class="list-group list-group-flush h-100">
@@ -116,7 +116,7 @@ if (have_posts()) {
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4">
+            <div class="col-lg-4 col-sm-12 col-md-12 py-3">
                 <div class="card card border-success mb-3">
                     <div class="card-body">
                         <ul class="list-group list-group-flush h-100">
