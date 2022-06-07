@@ -3,20 +3,17 @@ The Name: Herkausnamai
 Version: 1.0
 */
 
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   color: rgba(0, 0, 0, 0.8);
   font-weight: 400;
   line-height: 1.58;
-  letter-spacing: -.003em;
+  letter-spacing: -0.003em;
   font-size: 15px;
- 
 }
-*
-{
-  
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -24,31 +21,30 @@ body {
 
 .lt {
   color: #28b106;
-  
-  
 }
 .slider {
- height: 450px;
+  height: 100%;
 }
 
-a:hover, a:active, a:visited  {
+.bg-photo {
+  height: 70vh;
+  width: 100rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+
+a:hover,
+a:active,
+a:visited {
   border-bottom: 2px #eff5fc solid;
- 
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #eff5fc;
-  
 }
- ul, a.navbar-brand.fw-bold {
-  height: 40px;
-}
-nav.navbar.navbar-expand-md.bg-dark.navbar-dark.header-area.sticky-top
- {
-  
-  
+
+nav.navbar.navbar-expand-md.bg-dark.navbar-dark.header-area.sticky-top {
   box-shadow: 5px 5px 5px green;
- 
-  
 }
 .h3 {
   background-image: linear-gradient(#2ec508 0 0);
@@ -56,7 +52,6 @@ nav.navbar.navbar-expand-md.bg-dark.navbar-dark.header-area.sticky-top
   background-size: 40% 2px; /*Adjust the background size to control length and height*/
   background-repeat: no-repeat;
   padding-bottom: px; /* this can also control the position */
-
 }
 .h2 {
   background-image: linear-gradient(#2ec508 0 0);
@@ -64,8 +59,102 @@ nav.navbar.navbar-expand-md.bg-dark.navbar-dark.header-area.sticky-top
   background-size: 20% 2px; /*Adjust the background size to control length and height*/
   background-repeat: no-repeat;
   padding-bottom: px; /* this can also control the position */
-
 }
 .card-body {
-  min-height: 290px;
+  min-height: 280px;
+}
+
+/* floats */
+.quarter,
+.one-third,
+.two-thirds,
+.half {
+    float: left;
+}
+/* widths */
+.one-third {
+  width: 32%;
+}
+.two-thirds {
+  width: 65.5%;
+}
+.quarter {
+  width: 23.5%;
+}
+.three-quarters {
+  width: 74.5%;
+}
+.half {
+  width: 48%;
+}
+/* margins  */
+.one-third {
+  margin: 0 0.5%;
+}
+.quarter,
+.two-thirds {
+  margin: 0 0.5%;
+}
+.left,
+.quarter.left,
+.one-third.left {
+  margin: 0 1% 0 0;
+  float: left;
+}
+.right,
+.quarter.right,
+.one-third.right {
+  margin: 0 0 0 1%;
+  float: right;
+}
+.half.left {
+  width: 48%;
+  margin: 0 2% 0 0;
+}
+.half.right {
+  width: 48%;
+  margin: 0 0 0 2%;
+}
+.two-thirds.left {
+  margin: 0 1% 0 0;
+}
+.two-thirds.right {
+  margin: 0 0 0 1%;
+  float: right;
+}
+/* media queries for larger screens such as small tablets in landscape or large tablets in portrait */
+@media screen and ( max-width: 780px ) {
+     
+  /* only the .quarter layout class is relevant here - all other classes will have full width */
+  .quarter {
+      width: 48%;
+  }
+  .quarter.left {
+      margin-right: 2%;
+  }
+  .quarter.right {
+      margin-left: 2%;
+  }
+  footer .third.quarter.widget-area {
+      clear: both;
+  }
+}
+
+/* media queries for small screens in landscape mode (or similar) */
+@media screen and ( max-width: 600px ) {
+   
+  /* width sizing all full width in small screens */
+  .quarter,
+  .one-third,
+  .half,
+  .two-thirds,
+  .three-quarters,
+  .full-width {
+      width: 100%;
+      margin: 0;
+  }
+  /* padding adjustments */
+  .widget-area {
+      padding: 0 0 10px 0;
+  }
 }
