@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f2e635e-f567-47e4-a965-122d8039c0c7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/Herkausnamai/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/Herkausnamai/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/Herkausnamai/front-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/Herkausnamai/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/Herkausnamai/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/Herkausnamai/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/Herkausnamai/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/Herkausnamai/template-parts/apie.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/Herkausnamai/template-parts/apie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/Herkausnamai/template-parts/formavimas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/Herkausnamai/template-parts/paslaugos.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/Herkausnamai/template-parts/paslaugos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/Herkausnamai/template-parts/slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/Herkausnamai/template-parts/slider.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2AM76JxrKJ5fQd4V7OckXGv2OPL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f2e635e-f567-47e4-a965-122d8039c0c7" name="Changes" comment="" />
+      <created>1654807425642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654807425642</updated>
+      <workItem from="1654807428847" duration="19000" />
+    </task>
+    <servers />
+  </component>
+</project>

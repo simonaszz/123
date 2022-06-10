@@ -1,9 +1,3 @@
-<?php 
- the_content(); 
-
-?>
-<!--slider  -->
-
 <section>
     <div class="container-fluid  d-sm-block px-0">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
