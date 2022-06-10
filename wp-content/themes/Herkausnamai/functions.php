@@ -128,22 +128,3 @@ add_action('widgets_init', 'tutsplus_widgets_init');
 
 
 
-
-
-
-
-/*
-*add_image_size('name' (e.g. slides), width (e.g. 960), height (e.g. 400), true
-*(croppable -> true or false));
-*/
-function my_register_custom_card_styles( $card_styles ) {
-
-	/*
-	 * Register new "my-card" card style.
-	 *
-	 * Simply add a file to your child theme anywhere you want with any name
-	 * then you define the location of your card via the template parameter.
-	 */
-	
-
-
